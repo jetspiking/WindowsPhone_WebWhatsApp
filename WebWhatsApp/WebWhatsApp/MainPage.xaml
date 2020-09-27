@@ -1,0 +1,73 @@
+﻿<Page
+    x:Class="WebWhatsApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <WebView x:Name="WebViewControl"
+             HorizontalAlignment="Stretch"
+             VerticalAlignment="Stretch"
+             NavigationCompleted="Browser_NavigationCompleted" 
+    />
+
+    <Page.BottomAppBar>
+        <CommandBar>
+            <CommandBar.PrimaryCommands>
+                <AppBarToggleButton
+                    x:Name="Contacts"
+                    x:Uid="Contacts"
+                    Click="Contacts_Click"
+                    Icon="Contact"
+                    Label="Contacts"/>
+                <AppBarToggleButton
+                    x:Name="Chat"
+                    x:Uid="Chat"
+                    Click="Chat_Click"
+                    Icon="Message"
+                    Label="Chat"/>
+                <AppBarButton
+                    x:Name="ZoomIn"
+                    x:Uid="ZoomIn"
+                    Click="ZoomIn_Click"
+                    Icon="ZoomIn"
+                    Label="Zoom in"/>
+                <AppBarButton
+                    x:Name="ZoomOut"
+                    x:Uid="ZoomOut"
+                    Click="ZoomOut_Click"
+                    Icon="ZoomOut"
+                    Label="Zoom out"/>
+                <!--<AppBarToggleButton
+                    x:Name="Settings"
+                    x:Uid="Settings"
+                    Click="Settings_Click"
+                    Icon="Setting"
+                    Label="settings"/>-->
+
+            </CommandBar.PrimaryCommands>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton
+                    x:Name="AboutMe"
+                    x:Uid="AboutMe"
+                    Click="AboutApp_Click"
+                    Icon="Contact"
+                    Label="About me"/>
+                <AppBarButton
+                    x:Name="RefreshWebWhatsapp"
+                    x:Uid="RefreshWebWhatsapp"
+                    Click="RefreshWebWhatsapp_Click"
+                    Icon="Refresh"
+                    Label="Refresh"/>
+                <AppBarToggleButton
+                    x:Name="UiThemeToggle"
+                    x:Uid="UiThemeToggle"
+                    Click="UiThemeToggle_Click"
+                    Icon="Clock"
+                    Label="Dark theme"/>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+</Page>

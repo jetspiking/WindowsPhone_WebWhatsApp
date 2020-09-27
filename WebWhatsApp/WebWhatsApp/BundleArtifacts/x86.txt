@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Dustin\source\repos2\WebWhatsApp\WebWhatsApp\bin\x86\Release\WebWhatsApp_1.0.111.0_x86.appx
+SymbolPackage=C:\Users\Dustin\source\repos2\WebWhatsApp\WebWhatsApp\AppPackages\WebWhatsApp_1.0.111.0_Test\WebWhatsApp_1.0.111.0_x86.appxsym

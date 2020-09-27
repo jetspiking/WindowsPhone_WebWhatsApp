@@ -1,0 +1,6 @@
+MainPackage=C:\Users\Dustin\source\repos2\WebWhatsApp\WebWhatsApp\bin\ARM\Release\WebWhatsApp_1.0.111.0_ARM.appx
+SymbolPackage=C:\Users\Dustin\source\repos2\WebWhatsApp\WebWhatsApp\AppPackages\WebWhatsApp_1.0.111.0_Test\WebWhatsApp_1.0.111.0_ARM.appxsym
+ResourcePack=C:\Users\Dustin\source\repos2\WebWhatsApp\WebWhatsApp\bin\ARM\Release\WebWhatsApp_1.0.111.0_scale-100.appx
+ResourcePack=C:\Users\Dustin\source\repos2\WebWhatsApp\WebWhatsApp\bin\ARM\Release\WebWhatsApp_1.0.111.0_scale-125.appx
+ResourcePack=C:\Users\Dustin\source\repos2\WebWhatsApp\WebWhatsApp\bin\ARM\Release\WebWhatsApp_1.0.111.0_scale-150.appx
+ResourcePack=C:\Users\Dustin\source\repos2\WebWhatsApp\WebWhatsApp\bin\ARM\Release\WebWhatsApp_1.0.111.0_scale-400.appx
