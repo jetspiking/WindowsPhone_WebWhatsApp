@@ -5,3 +5,5 @@ WebWhatsApp is a simple application to run WhatsApp Web on your Windows 10 Mobil
 The .appx is included in the project files. You can download the ARM for W10 Mobile, and the X86 / X64 for a desktop pc.
 
 You might need to install the included certificate. Walk through the installation (right mouse button --> install) and store it into the "Trusted People" archive, installing it automatically might not be sufficient. 
+
+![Screenshot](WebWhatsApp_overview.png)
